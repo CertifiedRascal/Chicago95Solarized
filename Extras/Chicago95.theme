@@ -1,6 +1,6 @@
 [Scheme]
-Name=Chicago95
-ColorForeground=#c0c0c0
+Name=Chicago95Solarized
+ColorForeground=#fdf6e3
 ColorBackground=#000000
 ColorSelection=#ffffffffffff
 ColorCursor=#c0c0c0c0c0c0
