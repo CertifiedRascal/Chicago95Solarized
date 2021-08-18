@@ -1,4 +1,4 @@
-/*# name: Chicago95
+/*# name: Chicago95Solarized
   # author: Grassmunk
   # author: AdrianoML (rewrite/gtk 3.22 update)
   # author: EMH-Mark-I (rewrite/gtk 3.22/3.24 update)
@@ -10,7 +10,7 @@
 /* Do not remove */
 
 /* default color scheme */
-@define-color bg_color #c0c0c0; /* Window Theme: buttonface */
+@define-color bg_color #fdf6e3; /* Window Theme: buttonface */
 @define-color fg_color #000000; /* Windows Theme: windowtext */
 @define-color panel_fg_color #000000;
 @define-color panel_fg_color_bright #ffffff;
@@ -21,14 +21,14 @@
 @define-color selected_fg_color #ffffff; /* Windows Theme: hilighttext */
 @define-color selected_inactive_bg_color #808080; 
 @define-color selected_inactive_fg_color #000000; 
-@define-color tooltip_bg_color #ffffe1; /* Windows Theme: infowindow, Tooltip background color */ 
+@define-color tooltip_bg_color #fdf6e3; /* Windows Theme: infowindow, Tooltip background color */ 
 @define-color tooltip_bg_shade #494940; /* Windows Theme: infotext, sometimes text hinting? */
 @define-color tooltip_fg_color #000000; /* Windows Theme: infotext */
-@define-color bg_bright shade(white, 0.99); /* Windows Theme: window, White inner window/text areas */
+@define-color bg_bright #FDF6E3; /* Windows Theme: window, White inner window/text areas */
 @define-color bg_shade shade(@bg_color, 0.66); 
 @define-color bg_dark shade(@bg_color, 0.13); 
 @define-color border_color @bg_color; /* Window Theme: buttonface */
-@define-color border_bright #ffffff; /* Windows Theme: buttonlight */
+@define-color border_bright #CACDC0; /* Windows Theme: buttonlight */
 @define-color border_light #dfdfdf; /* Windows Theme: buttonhilight */
 @define-color border_dark #000000; /* Windows Theme: buttondkshadow */
 @define-color border_shade #808080; /* Windows Theme: buttonshadow */
@@ -44,12 +44,12 @@
 @define-color menu_bg_color @bg_color;       /* Windows Theme: menu, applied to 'menu' and 'menubar' */
 @define-color button_text_color @text_color; /* Windows Theme: buttontext */
 @define-color button_bg_color @bg_color; /* Windows Theme: buttonface */
-@define-color scrollbar_trough_bg_color #ffffff; /* Window theme: scrollbar, also controls task bar background color, per windows 95 themes */
+@define-color scrollbar_trough_bg_color #fdf6e3; /* Window theme: scrollbar, also controls task bar background color, per windows 95 themes */
 @define-color scrollbar_bg_color @button_bg_color; /* Window theme: (scrollbar) buttonface */
 @define-color scrollbar_solid_color @bg_color; /* Window Theme: Scrollbar, this is only if you want the scrollbar trough solid color */
 @define-color window_title_bg_color @selected_bg_color; /* Windows Theme: activetitle */
 @define-color window_title_text_color @selected_fg_color;  /* Windows Theme: titletext */
-@define-color inactive_title_bg_color #808080; /* Windows Theme: inactivetitle */
+@define-color inactive_title_bg_color #839496; /* Windows Theme: inactivetitle */
 @define-color inactive_title_text_color #c0c0c0; /* Windows Theme: inactivetitletext */
 
 /* dark color scheme */
@@ -73,18 +73,18 @@
 
 /* misc colors used by gtk+ */
 @define-color info_fg_color @fg_color;
-@define-color info_bg_color #ffffe1;
+@define-color info_bg_color #fdf6e3;
 @define-color warning_fg_color @fg_color;
-@define-color warning_bg_color #FFEDCC;
+@define-color warning_bg_color #eee8d5;
 @define-color question_fg_color @info_fg_color;
 @define-color question_bg_color @info_bg_color;
 @define-color error_fg_color @fg_color;
-@define-color error_bg_color #FFCCCC;
-@define-color link_color #000080; /* Windows Theme: hottrackingcolor */
+@define-color error_bg_color #e35a58;
+@define-color link_color #586e75; /* Windows Theme: hottrackingcolor */
 @define-color link_color_shadow #ffffff;
-@define-color success_color #53d013;
-@define-color warning_color #f57600;
-@define-color error_color #cc0000;
+@define-color success_color #859900;
+@define-color warning_color #b58900;
+@define-color error_color #dc322f;
 
 /* osd */
 @define-color osd_base @dark_bg_color;
@@ -131,7 +131,7 @@
 @define-color whisker_menu_logo @bg_shade;
 
 /* XFCE desktop icon colours*/
-@define-color xfd_icon_backdrop #008081;
+@define-color xfd_icon_backdrop #cb4b16;
 @define-color xfd_icon_text #ffffff;
 @define-color xfd_rubberband_outline #ff7f7f;
 

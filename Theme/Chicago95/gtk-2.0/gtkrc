@@ -1,12 +1,12 @@
-# Chicago95 by Grassmunk
+# Chicago95Solarized by Grassmunk
 # Based on Xfce-Redmond by dbbolton
 
-gtk_color_scheme = "fg_color:#000000\nbg_color:#c0c0c0\nbase_color:#ffffff\ntext_color:#000000\nselected_bg_color:#000080\nselected_fg_color:#ffffff"
+gtk_color_scheme = "fg_color:#000000\nbg_color:#fdf6e3\nbase_color:#ffffff\ntext_color:#000000\nselected_bg_color:#586e75\nselected_fg_color:#ffffff"
 
 ######################################
 ## original color scheme
 #
-# gtk_color_scheme = "fg_color:#000000\nbg_color:#c0c0c0\nbase_color:#ffffff\ntext_color:#000000\nselected_bg_color:#000080\nselected_fg_color:#ffffff"
+# gtk_color_scheme = "fg_color:#000000\nbg_color:#fdf6e3\nbase_color:#ffffff\ntext_color:#000000\nselected_bg_color:#586e75\nselected_fg_color:#ffffff"
 #
 ######################################
 
@@ -540,7 +540,7 @@ class "GtkOptionMenu" style "standard-option-menu"
 
 style "gnome-color-chooser-tooltips"
 {
-	bg[NORMAL] = "#ffffe1"
+	bg[NORMAL] = "#eee8d5"
 	fg[NORMAL] = "#000000"
 }
 widget "gtk-tooltip*" style "gnome-color-chooser-tooltips"
@@ -562,7 +562,7 @@ style "xfdesktop-icon-view" {
 	XfdesktopIconView::cell-color = "#c0c0c0"
 	XfdesktopIconView::cell-text-width-proportion = 2.4
 	XfdesktopIconView::ellipsize-icon-labels = 0
-	base[NORMAL] = "#008081"			#This is the desktop icon label background colour.
+	base[NORMAL] = "#cb4b16"			#This is the desktop icon label background colour.
 	base[SELECTED] = @selected_bg_color			#This is the desktop icon label background colour selected state.
 	base[ACTIVE] = @selected_bg_color			#This is the desktop icon label background colour active state.
 	fg[NORMAL] = @selected_fg_color			#This is the desktop icon label TEXT colour state.
