@@ -1,4 +1,7 @@
-# Chicago95
+# Chicago95Solarized
+
+<p> Hello! I created this spin of the theme based on an r/unixporn post you can find <a href="https://www.reddit.com/r/unixporn/comments/nv2rpv/xfce_all_things_solarized/">here</a>. Neither Chicago95 nor the idea from the post is mine, however, the OP seems to have gone offline for a few months, and their google drive link is broken. In other words, I take no credit for any of this! I may add some more pics of the solarized version along with a more updated readme at some point, but I basically just went into the css files and referenced the hex codes with ones from the solarized color scheme. Hopefully this helps others who were struggling with updating the theme.</p>
+
 #### XFCE / Xubuntu Windows 95 Total Conversion
 
 <p align="center">
